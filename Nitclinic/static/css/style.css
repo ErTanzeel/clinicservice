@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Inter:wght@100;200;300&family=Lato:wght@300&family=Mochiy+Pop+P+One&family=Outfit:wght@200&family=Red+Hat+Mono:wght@300;400&family=Roboto:wght@100&display=swap');
+
+:root {
+    --main-bg-color:#2874f0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.images{
+    background-image: url('lappy.png');
+}
+.flex-all-centre{
+    font-family: 'Baloo 2', cursive;
+
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+}
+header{
+    font-family: 'Baloo 2', cursive;
+
+    height: 60px;
+    background-color:var(--main-bg-color);
+    
+}
+nav ul li a:hover{
+    color: rgb(8, 91, 247);
+    list-style: none;
+    font-weight: 900;
+    text-decoration: none;
+}
+nav ul{
+    height: 394px;
+    display: flex;
+    justify-content: start;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Baloo 2', cursive;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+
+    
+}
+.logo img{
+    width: 88px;
+    padding: 23px;
+}
+.container{
+    min-height: calc(100vh - 12vh - 60px );
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height:27px ;
+    border: 2px solid rgb(50, 6, 243);
+    margin: 0  45px 0 23px;
+    padding: 0 12px;
+}
+.btn:hover{
+    padding: 5px 10px;
+    margin-left: -23px;
+    border-radius: 7px;
+    border: 2px solid white;
+    background: var(--main-bg-color);
+    cursor: pointer;   
+}
+
+
+

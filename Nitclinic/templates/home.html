@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load static %}
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	}
+.menu {
+  overflow: hidden;
+  background-color: 
+}
+
+.menu a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+<body>
+
+<header class="site-header clearfix">
+ <nav>
+  <div class="logo">
+   <img src="{% static 'img/tanzeel1.png' %}" alt="">
+  </div>
+  <div class="menu"> 
+   <ul>
+    
+    <li><a href="http://localhost:8000/Nitclinic/sig">Create account</a></li>
+    <li><a href="http://localhost:8000/Nitclinic/login">Login</a></li>
+    <li><a href="http://localhost:8000/Nitclinic/insert">Online appointment booking</a></li>
+    <li><a href="http://localhost:8000/Nitclinic/about">About</a></li>
+   </ul>
+  </div>
+ </nav>
+ <section>
+  <div class="leftside"> 
+   <img src="{% static 'img/soyeb.jpg' %}">
+  </div>
+  <div class="rightside">
+  <h1>Our Nit Clinic</h1>
+   <p>  A Good Doctor Cures the Disease,But a Great Doctor Cures The Cause.   </p>
+   <button 
+    onclick="window.location.href = 'http://localhost:8000/Nitclinic/login';">
+    welcome
+		</button>
+		</div>
+   
+  </div>
+  
+ </section>
+
+</header>
+
+
+</body>
+</html>

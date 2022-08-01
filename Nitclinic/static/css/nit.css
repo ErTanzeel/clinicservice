@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url("/static/img/tan.png");
+
+}
+
+.signup{
+    top: 133px;
+    left: 204px;
+    padding: 25px;
+    position: absolute;
+    background-color: #379792;
+    height:350px;
+    width:259px;
+}
+form{
+    font-weight: 12px;
+    height: 299px;
+    width: 163px;
+}
+label{
+    font-weight:bold;
+    color: black;
+}
